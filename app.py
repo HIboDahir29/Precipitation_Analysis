@@ -7,7 +7,6 @@ from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from datetime import datetime, date, time
 import datetime as dt
-from dateutil.relativedelta import relativedelta
 from flask import Flask, jsonify
 
 # ***********-------************
